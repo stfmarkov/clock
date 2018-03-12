@@ -1,0 +1,33 @@
+.add-test{
+    margin-top: 50px;
+    &__input{
+        margin:0 auto;
+        border: none;
+        line-height: 25px;
+        color: #61dafb;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+        width: 500px;
+        max-width: 90%;
+        border-bottom: 2px solid #61dafb;
+        font-weight: 700;
+        &:focus{
+            outline: none;
+            border-bottom-color:darken(#61dafb, 10%);
+        }
+    }
+    &__button{
+        display: block;
+        margin: 30px auto 0 auto;
+        background: lighten(#20232a, 10%);
+        width: 150px;
+        height: 33px;
+        color: #fff;
+        border:none;
+        border-radius: 10px;
+        &:hover{
+            background: #20232a;
+        }
+    }
+}

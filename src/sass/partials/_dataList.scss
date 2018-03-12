@@ -1,0 +1,18 @@
+.data-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    &__item{
+        padding: 5px 15px;
+        margin: 0 15px;
+        background: #61dafb;
+        border-radius: 10px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    &__close{
+        display: inline-block;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+}

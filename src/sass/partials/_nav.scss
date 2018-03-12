@@ -1,0 +1,28 @@
+.nav{
+    margin-bottom: 50px;
+    background: #3f51b5;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    &:before{
+        display: block;
+        content: '';
+        background: #002984;
+        height: 25px;
+        border-bottom: 1px solid rgba(#fff, .5);        
+    }
+    &__list{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+    }
+    &__item{
+        line-height: 44px;
+        padding: 3px 25px 0;
+        font-size: 14px;
+        display: inline-block;
+        border-bottom: 3px solid rgba(#ff9800, 0);
+        text-transform: uppercase;
+        &:hover{
+            border-bottom-color: #ff9800;
+        }
+    }
+}

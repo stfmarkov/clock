@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #F5F5F6;
+}
+
+a,
+a:hover,
+a:visited,
+a:focus{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.main-heading{
+    text-transform: uppercase;
+    color: #20232a;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.card{
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    max-width: 500px;
+    margin: 0 auto;
+}

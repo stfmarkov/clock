@@ -1,0 +1,56 @@
+.stopwatch{ 
+    &__time{
+        font-size: 45px;
+        text-align: center;
+    }
+    &__btns{
+        margin: 50px 0 0 0;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        display: flex;
+    }
+    &__btn{
+        height: 50px;
+        border: none;
+        flex-grow:1;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        &_start{
+            background: #4caf50;
+        }
+        &_pause{
+            background: #f44336;
+        }
+        &_lap{
+            background: #3f51b5;
+        }
+        &_reset{
+            background: #3f51b5;
+        }
+    }
+
+    &__laps{
+        margin: 50px 0 0 0;
+    }
+
+    &__lap{
+        line-height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size:18px;
+        font-weight: 500;
+        span{
+            flex-basis: 33%;
+            text-align: center
+        } 
+    }
+
+    &__lap-num{
+        color: #c66900;
+    }
+    &__lap-current{
+        color: rgba(#000, .65);
+    }
+}
